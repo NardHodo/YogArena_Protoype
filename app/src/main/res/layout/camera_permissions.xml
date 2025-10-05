@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_3"
     android:theme="@style/Theme.Material3.DayNight.NoActionBar"
     android:id="@+id/camera_permissions"
     android:padding="25sp">
@@ -23,8 +24,60 @@
         android:text="@string/camera_permissions_header"
         android:layout_below="@id/camera_permissions"
         android:layout_margin="25sp"
-        android:layout_centerHorizontal="true">
-
+        android:layout_centerHorizontal="true"
+        android:id="@+id/camera_permissions_header"
+        android:textColor="@color/color_5">
     </TextView>
+
+    <TextView
+        android:layout_width="450sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/camera_permissions_header"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="@string/camera_permissions_desc"
+        android:textAlignment="center"
+        android:textColor="@color/color_5"
+        android:id="@+id/camera_permissions_desc">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="25sp"
+        android:layout_below="@id/camera_permissions_desc"
+        android:layout_margin="25sp"
+        android:layout_gravity="center"
+        android:gravity="center"    >
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="140sp"
+            android:layout_height="40sp"
+            android:id="@+id/set_camera"
+            android:text="@string/not_now"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:backgroundTint="@color/color_5"
+            app:cornerRadius="7dp"
+            android:layout_marginHorizontal="20sp">
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="140sp"
+            android:layout_height="40sp"
+            android:id="@+id/maybe_later"
+            android:text="@string/set_camera"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:backgroundTint="@color/color_5"
+            app:cornerRadius="7dp"
+            android:layout_marginHorizontal="20sp">
+        </com.google.android.material.button.MaterialButton>
+
+
+    </LinearLayout>
+
+
 
 </RelativeLayout>

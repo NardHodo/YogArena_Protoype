@@ -6,6 +6,17 @@
 
     <string name="camera_permissions_header">CAMERA PERMISSIONS</string>
     <string name="camera_permissions_desc">
-        To Fully
+       To fully unlock your YogArena experience, we need access to your camera.
+        This allows the app to detect your movements and form, in order to provide accurate
+        feedback and measure your overall performance. Camera Access is fully required
+        in order to proceed.
     </string>
+
+
+    <!-- Buttons      -->
+    <string name="set_camera">Set Permissions</string>
+    <string name="not_now">Exit Game</string>
+
+    <!--  Loading Screen  -->
+    <string name="in_game_loading">TIDYING THE STUDIO</string>
 </resources>

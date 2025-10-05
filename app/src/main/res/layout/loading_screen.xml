@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_3"
+    android:theme="@style/Theme.Material3.DayNight.NoActionBar"
+    android:padding="25sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/progressLinear"
+        android:layout_alignStart="@id/progressLinear"
+        android:layout_alignEnd="@id/progressLinear"
+        android:layout_marginBottom="7sp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/in_game_loading"
+        android:textSize="12sp"
+        android:textAlignment="center">
+
+    </TextView>
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progressLinear"
+        android:layout_width="250sp"
+        android:layout_height="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:trackColor="@color/color_1"
+        app:indicatorColor="@color/color_5"
+        app:trackThickness="8dp"
+        app:indicatorCornerRadius="4dp"
+        app:indicatorDirectionLinear="leftToRight"
+        >
+
+    </com.google.android.material.progressindicator.LinearProgressIndicator>
+
+
+
+</RelativeLayout>
