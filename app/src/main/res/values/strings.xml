@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">YogArena_Protoype</string>
+
+    <string name="loading_screen_desc_1">SETTING UP YOGA MATS</string>
+    <string name="loading_screen_desc_2">Informing the Instructors</string>
+
+    <string name="camera_permissions_header">CAMERA PERMISSIONS</string>
+    <string name="camera_permissions_desc">
+        To Fully
+    </string>
+</resources>
