@@ -52,11 +52,12 @@
         android:gravity="center"    >
 
         <com.google.android.material.button.MaterialButton
-            android:layout_width="140sp"
+            android:layout_width="150sp"
             android:layout_height="50sp"
             android:id="@+id/exit_game"
             android:text="@string/not_now"
             android:textColor="@color/white"
+            android:fontFamily="@font/nunito_semibold"
             android:textSize="15sp"
             app:backgroundTint="@color/color_5"
             app:cornerRadius="7dp"
@@ -65,11 +66,12 @@
         </com.google.android.material.button.MaterialButton>
 
         <com.google.android.material.button.MaterialButton
-            android:layout_width="140sp"
+            android:layout_width="150sp"
             android:layout_height="50sp"
             android:id="@+id/set_camera"
             android:text="@string/set_camera"
             android:textColor="@color/white"
+            android:fontFamily="@font/nunito_semibold"
             android:textSize="15sp"
             app:backgroundTint="@color/color_5"
             app:cornerRadius="7dp"

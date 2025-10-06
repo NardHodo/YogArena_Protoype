@@ -19,4 +19,18 @@
 
     <!--  Loading Screen  -->
     <string name="in_game_loading">TIDYING THE STUDIO</string>
+
+    <!--  Exit Dialog Box   -->
+    <string name="exit_header">Exit Game?</string>
+    <string name="exit_message">Are you sure you want to close YogArena?</string>
+    <string name="exit_game">Confirm</string>
+    <string name="exit_cancel">Cancel</string>
+
+    <!--  Routine Selection  -->
+    <string name="back">Back to Main Menu</string>
+    <string name="routine_header">Available Routines</string>
+    <string name="routine_title">Demo Routine</string>
+    <string name="upcoming">More Routines Coming Soon</string>
+
+
 </resources>

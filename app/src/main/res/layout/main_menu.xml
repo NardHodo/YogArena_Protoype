@@ -28,11 +28,12 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/main_menu_logo"
+                android:layout_width="630dp"
+                android:layout_height="110dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="25sp">
+                android:layout_marginTop="25sp"
+                android:src="@drawable/main_logo">
+
             </ImageView>
 
             <com.google.android.material.button.MaterialButton
@@ -56,7 +57,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="25sp"
-                android:fontFamily="@font/nunito_black"
+                android:fontFamily="@font/nunito_semibold"
                 android:text="Exit Game"
                 android:textSize="20sp"
                 android:layout_marginHorizontal="20sp"
@@ -71,7 +72,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="25sp"
-                android:fontFamily="@font/nunito_extrabold"
+                android:fontFamily="@font/nunito_semibold"
                 android:layout_marginHorizontal="20sp"
                 android:elevation="10dp"
                 android:text="Options"
