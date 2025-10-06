@@ -57,7 +57,7 @@
             android:id="@+id/exit_game"
             android:text="@string/not_now"
             android:textColor="@color/white"
-            android:textSize="12sp"
+            android:textSize="15sp"
             app:backgroundTint="@color/color_5"
             app:cornerRadius="7dp"
             android:layout_marginHorizontal="20sp">
@@ -70,7 +70,7 @@
             android:id="@+id/set_camera"
             android:text="@string/set_camera"
             android:textColor="@color/white"
-            android:textSize="12sp"
+            android:textSize="15sp"
             app:backgroundTint="@color/color_5"
             app:cornerRadius="7dp"
             android:layout_marginHorizontal="20sp">

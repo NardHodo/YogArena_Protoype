@@ -14,7 +14,7 @@
 
 
     <!-- Buttons      -->
-    <string name="set_camera">Set Permissions</string>
+    <string name="set_camera">Allow Access</string>
     <string name="not_now">Exit Game</string>
 
     <!--  Loading Screen  -->

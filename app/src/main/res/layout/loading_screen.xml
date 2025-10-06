@@ -30,7 +30,7 @@
         app:trackColor="@color/color_1"
         app:indicatorColor="@color/color_5"
         app:trackThickness="8dp"
-        app:indicatorCornerRadius="4dp"
+        app:cornerRadius="4dp"
         app:indicatorDirectionLinear="leftToRight"
         >
 

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_3"
     android:theme="@style/Theme.Material3.DayNight.NoActionBar">
-    
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        
+
         <ImageView
             android:id="@+id/bg_image"
             android:layout_width="match_parent"
@@ -22,10 +23,62 @@
             android:layout_height="match_parent"
             android:background="#4DD9D9D9"/>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/main_menu_logo">
-        </ImageView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_menu_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25sp">
+            </ImageView>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="150sp"
+                android:layout_height="70sp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25sp"
+                android:fontFamily="@font/nunito_black"
+                android:id="@+id/play_button"
+                android:text="PLAY"
+                android:textSize="25sp"
+                android:elevation="10dp"
+                app:cornerRadius="5sp"
+                app:backgroundTint="@color/color_5"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/exit_game"
+                android:layout_width="150sp"
+                android:layout_height="50sp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25sp"
+                android:fontFamily="@font/nunito_black"
+                android:text="Exit Game"
+                android:textSize="20sp"
+                android:layout_marginHorizontal="20sp"
+                android:elevation="10dp"
+                app:cornerRadius="5sp"
+                android:layout_toRightOf="@id/play_button"
+                app:backgroundTint="@color/color_4"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="150sp"
+                android:layout_height="50sp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25sp"
+                android:fontFamily="@font/nunito_extrabold"
+                android:layout_marginHorizontal="20sp"
+                android:elevation="10dp"
+                android:text="Options"
+                android:textSize="20sp"
+                android:layout_toLeftOf="@id/play_button"
+                app:cornerRadius="5sp"
+                app:backgroundTint="@color/color_4"/>
+        </RelativeLayout>
     </FrameLayout>
 </RelativeLayout>

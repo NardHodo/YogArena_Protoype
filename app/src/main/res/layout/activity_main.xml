@@ -15,14 +15,4 @@
         android:layout_centerInParent="true">
     </ImageView>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="30sp"
-        android:fontFamily="@font/nunito_medium"
-        android:text="@string/loading_screen_desc_1"
-        android:textAlignment="center">
-    </TextView>
-
 </RelativeLayout>
