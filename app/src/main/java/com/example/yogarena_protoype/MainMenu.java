@@ -21,6 +21,7 @@ import com.google.android.material.button.MaterialButton;
 public class MainMenu extends AppCompatActivity {
 
     public MaterialButton ExitGame;
+    private MaterialButton playButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,9 +30,12 @@ public class MainMenu extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
         ImageView bg = findViewById(R.id.bg_image);
+        playButton =findViewById(R.id.play_button);
         ExitGame = findViewById(R.id.exit_game);
-        ExitGame.setOnClickListener(v -> {
-            finishAffinity();
+        ExitGame.setOnClickListener(v ->
+            finishAffinity());
+
+        playButton.setOnClickListener(v -> { Intent intent = new Intent(MainMenu.this, CameraActivity.class); startActivity(intent);
         });
 
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.main_bg);

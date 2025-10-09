@@ -45,6 +45,13 @@
             android:theme="@style/YogArena_Prototype"
             android:screenOrientation="landscape">
         </activity>
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false"
+            android:theme="@style/YogArena_Prototype"
+            android:screenOrientation="landscape" />
+
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
